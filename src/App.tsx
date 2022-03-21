@@ -39,8 +39,8 @@ const GetPositionFromRow = (p: p5Types, row: number, maxRow: number = 10) => {
 
 export default function App() {
   const data = useControls(() => ({
-    Color1: { r: 0, g: 255, b: 0 },
-    Color2: { r: 0, g: 0, b: 255 }
+    Color1: { r: 255, g: 125, b: 125 },
+    Color2: { r: 125, g: 255, b: 125 }
   }));
   const DefalutRectSize = (p: p5Types) => {
     return p.width / 15;
