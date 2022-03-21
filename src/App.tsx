@@ -49,7 +49,7 @@ export default function App() {
   };
   const draw = (p: p5Types) => {
     p.background(255, 255, 255);
-    p.stroke(0, 0, 0, 0);
+    p.stroke(0, 0, 0, 255);
     p.fill(data[0].Color1.r, data[0].Color1.g, data[0].Color1.b);
     p.rect(
       p.windowWidth / 5,
